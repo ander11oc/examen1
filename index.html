@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+       <!--Import Google Icon Font-->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <!--Import materialize.css-->
+       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    
+       <!--Let browser know website is optimized for mobile-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Let browser know website is optimized for mobile-->
+</head>
+<body>
+
+    
+<!--EJERCICIO 1-->
+    <div class="row">
+        <div class="input-field col s6">
+            <input type="text" id="n1" placeholder="n1">
+            <input type="text" id="n2" placeholder="n2">
+            <button class="waves-effect waves-light btn" id="suma">+</button>
+            <button class="waves-effect waves-light btn" id="resta">-</button>
+            <button class="waves-effect waves-light btn" id="multiplicacion">*</button>
+            <button class="waves-effect waves-light btn" id="division">/</button>
+            <br> <br>       
+            <div id="resultado">Resultado</div>
+        </div>
+    </div>
+
+<!--EJERCICIO 2-->
+    <body onload="inicializar();">
+    <canvas id='canvas' width="500" height="500" style="border:2px solid #000; ">
+    </canvas>
+    <br> <br> 
+<!--EJERCICIO 3-->
+    <div class="row">
+        <div class="input-field col s6">
+            <input type="text" id="nombre" placeholder="Introduzca su nombre">
+            <input type="text" id="nota1" placeholder="Introduzca su nombre la nota 1">
+            <input type="text" id="nota2" placeholder="Introduzca su nombre la nota 2">
+            <input type="text" id="nota3" placeholder="Introduzca su nombre la nota 3">
+            <input type="text" id="nota4" placeholder="Introduzca su nombre la nota 4">
+            <button class="waves-effect waves-light btn" id="promedioNotas">Calcular promedio</button>
+            <br> <br>       
+            <div id="resultadoNotas">Resultado</div>
+        </div>
+    </div>
+    <br> <br> 
+   
+ 
+  <script src='js/script.js'></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
